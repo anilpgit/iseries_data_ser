@@ -1,8 +1,8 @@
-                                UNIQUE  
-                                REF(SAMREF)
-      R FPPER
-      PPERID    R               REFFLD(PERID)
-      PPEFNAME  R               REFFLD(FNAME)
-      PPELNAME  R               REFFLD(LNAME)
-      PPEAGE    R               REFFLD(AGE)
+                                            UNIQUE  
+                                            REF(SAMREF)
+                R FPPER
+                  PPERID    R               REFFLD(PERID)
+                  PPEFNAME  R               REFFLD(FNAME)
+                  PPELNAME  R               REFFLD(LNAME)
+                  PPEAGE    R               REFFLD(AGE)
                 K PPERID
