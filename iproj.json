@@ -3,11 +3,7 @@
   "description": "XML CSV JSON serialization",
   "objlib": "&lib",
   "curlib": "&lib",
-  "includePath": [
-    "includes",
-    "bnddir",
-    "QPROTOSRC"    
-  ],
+  "includePath": [],   
   "preUsrlibl": [
     "&lib"
   ],
