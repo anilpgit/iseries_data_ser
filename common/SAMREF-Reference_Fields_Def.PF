@@ -1,0 +1,12 @@
+      R REFER
+      *
+        PERID          5P 0         TEXT('Person ID')
+                                    COLHDG('Person' 'ID')
+                                    EDTCDE(Z)
+        FNAME          30           TEXT('First Name')
+                                    COLHDG('First' 'Name')  
+        LNAME          30           TEXT('Last Name')
+                                    COLHDG('Last' 'Name')   
+        AGE            3P 0         TEXT('Age')
+                                    COLHDG('Age')
+                                    EDTCDE(Z)

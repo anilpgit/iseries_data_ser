@@ -1,0 +1,16 @@
+{
+  "version": "0.0.2",
+  "description": "XML CSV JSON serialization",
+  "objlib": "&lib",
+  "curlib": "&lib",
+  "includePath": [],   
+  "preUsrlibl": [
+    "&lib"
+  ],
+  "postUsrlibl": [],
+  "setIBMiEnvCmd": [],
+  "repository": "git@github.com:anilpgit/iseries_data_ser.git",
+  "compileCommand": "/QOpenSys/pkgs/bin/makei c -f {filename}",
+  "buildCommand": "/QOpenSys/pkgs/bin/makei build",
+  "buildObjectCommand": "makei b -t {object}"
+}
