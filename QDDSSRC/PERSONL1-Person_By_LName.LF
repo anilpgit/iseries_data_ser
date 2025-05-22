@@ -1,4 +1,4 @@
-                            UNIQUE
-        R   FPPER           PFILE(PERSON)
-        K   PPLNAME
-        K   PPFNAME
+                                            UNIQUE
+                R FPPER                     PFILE(PERSON)
+                K PPELNAME
+                K PPEFNAME
