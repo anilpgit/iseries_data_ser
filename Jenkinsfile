@@ -38,7 +38,7 @@ pipeline {
                         //ibmiCommand "STRQSH CMD('export PATH=/QOpenSys/pkgs/bin:/QOpenSys/usr/bin:')"
                         //ibmiCommand "STRQSH CMD('/QOpenSys/pkgs/bin/makei c -f /home/APINTO1/builds/iseries_data_ser/QRPGLESRC/XML_SAX.PGM.RPGLE')"
                         //ibmiCommand "STRQSH CMD('makei c -f /home/APINTO1/builds/iseries_data_ser/QRPGLESRC/XML_SAX.PGM.RPGLE')"
-                        ibmiCommand "CALL PGM(XML_SAX)"
+                        ibmiCommand "CALL PGM(BLDPGMC) PARM('Hello')"
                         //Example of running a shell script
                         //Some pipeline steps running on PUB400
                         //ibmiCommand "SNDMSG MSG('Hello from Jenkins') TOUSR(APINTO1)"
