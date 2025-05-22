@@ -8,7 +8,7 @@
             "type": "IBMiDebug",
             "request": "attach",
             "name": "IBM i Debug: Attach to a running job",
-            "user": "",
+            "user": "APINTO1",
             "password": "${command:AskForPassword}",
             "host": "PUB400.com",
             "port": 8005,
