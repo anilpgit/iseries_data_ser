@@ -1,0 +1,6 @@
+/*%%TEXT Create new order with parameter */
+/*%%OBJECT-TYPE *PGM                     */
+PGM        PARM(&CUID)
+             
+             
+ENDPGM
