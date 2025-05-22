@@ -19,7 +19,7 @@ dcl-ds People qualified;
   Person likeds(PersonDS); 
 end-ds;
 //*********************************************************************************
-xml-into PersonDS %xml(xml_doc:'case=any doc=string path=people/person') ;
+xml-into PersonDS %xml(xml_doc:'case=any doc=string path=people/person allowextra=yes allowmissing=yes datasubf=value'); ;
 dsply PersonDS(1).Name.First_Name;
 dsply PersonDS(2).Name.Last_Name;
 Dsply ( %Char(xmlElements) + ' person records loaded.' ) ;
