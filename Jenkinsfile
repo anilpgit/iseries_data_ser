@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script {
                     /* groovylint-disable-next-line NestedBlockDepth */
-                    onIBMi('PUB400') {
+                    onIBMi('PUB400', traceEnabled: true
                         print "Command job is ${env.IBMI_COMMAND_JOB}"
                         print "Current CCSID is ${env.IBMI_PROFILE}"
                         //Example below where /QOpenSys/bin/script.sh is any PASE shell command or script.
