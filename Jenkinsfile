@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script {
                     /* groovylint-disable-next-line NestedBlockDepth */
-                    onIBMi('PUB400', traceEnabled: true
+                    onIBMi('PUB400', traceEnabled: true)
                         print "Command job is ${env.IBMI_COMMAND_JOB}"
                         print "Current CCSID is ${env.IBMI_PROFILE}"
                         //Example below where /QOpenSys/bin/script.sh is any PASE shell command or script.
@@ -38,8 +38,7 @@ pipeline {
                         //ibmiCommand "STRQSH CMD('export PATH=/QOpenSys/pkgs/bin:/QOpenSys/usr/bin:')"
                         //ibmiCommand "STRQSH CMD('/QOpenSys/pkgs/bin/makei c -f /home/APINTO1/builds/iseries_data_ser/QRPGLESRC/XML_SAX.PGM.RPGLE')"
                         //ibmiCommand "STRQSH CMD('makei c -f /home/APINTO1/builds/iseries_data_ser/QRPGLESRC/XML_SAX.PGM.RPGLE')"
-                        echo env.IBMI_PROFILE
-                        echo env.IBMI_COMMAND_JOB
+                        
                         ibmiCommand "CALL PGM(BLDPGMC) PARM('Hello')"
                         //Example of running a shell script
                         //Some pipeline steps running on PUB400
