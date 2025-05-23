@@ -6,8 +6,8 @@
 /* location is defined in the "include paths" section of     */
 /* VS Code for IBM i - Project Explorer                      */
 /* --------------------------------------------------------- */
-/* Author: nick@nicklitten.com                               */
-/* Date:   November 25th 2024                                */
+/* Author:                                */
+/* Date:                                   */
 /* --------------------------------------------------------- */
 
 PGM PARM(&MSG)
