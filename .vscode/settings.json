@@ -1,4 +1,6 @@
 {
     "cmake.options.statusBarVisibility": "visible",
-    "ibm-i-acs.host": ""
+    "ibm-i-acs.host": "",
+    "ansible.python.interpreterPath": "c:\\Users\\anpin\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "ansible.ansible.path": "\\\\wsl.localhost\\Ubuntu\\home\\anpin\\py_envs\\bin\\ansible"
 }

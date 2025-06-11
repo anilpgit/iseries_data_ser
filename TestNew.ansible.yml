@@ -1,0 +1,11 @@
+---
+
+- name: talk to localhost
+  hosts: localhost
+  connection: local
+  ansible_private_key_file: /home/ansible/.ssh/id_rsa
+  gather_facts: no  # stop gathering facts for now
+  tasks:
+    - name: Print Hello from Ansible
+      debug: msg='Hello from Ansible'
+
